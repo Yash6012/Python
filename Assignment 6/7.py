@@ -1,0 +1,11 @@
+# Question 7
+# Taking input from user
+num = int(input("Enter a number you want to compare: "))
+
+# Classify the number based on the criteria
+if num < 2:
+    print("The number", num, "is SMALL")
+elif num < 10:
+    print("The number", num, "is MEDIUM")
+else:
+    print("The number", num, "is LARGE")
