@@ -1,8 +1,8 @@
 # Question 7
-# Taking input from user
+# Taking input from the user
 num = int(input("Enter a number you want to compare: "))
 
-# Classify the number based on the criteria
+# Classify the number based on the criteria and printing
 if num < 2:
     print("The number", num, "is SMALL")
 elif num < 10:
