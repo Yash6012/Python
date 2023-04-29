@@ -1,4 +1,5 @@
 # Question 5
+print("Calculating gross payment for employee")
 # Taking input from user
 hour = float(input("Enter the time in hours:"))
 rate_per_hour = float(input("Enter the value of rate per hour:"))
