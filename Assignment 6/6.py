@@ -1,5 +1,5 @@
 # Question 6
-# Taking input from user
+# Taking input from user and then printing the result
 while True:
     score = float(input("Enter the score (between 0.0 to 1.0)"))
     if score > 1.0 or score < 0:
