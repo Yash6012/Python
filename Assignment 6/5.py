@@ -1,3 +1,13 @@
 # Question 5
 # Taking input from user
-hours = float(input("Enter the time in hours:"))
+hour = float(input("Enter the time in hours:"))
+rate_per_hour = float(input("Enter the value of rate per hour:"))
+
+# introducing control statement
+if hour > 40:
+    extra = (hour - 40) * 1.5 * rate_per_hour
+    # extra_rate = extra
+    total = 40 * rate_per_hour + extra
+    print("Gross payment for the employee is", total, "rupees")
+else:
+    print("Gross payment for the employee is", rate_per_hour * hour, "rupees")
