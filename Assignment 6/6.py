@@ -1,5 +1,5 @@
 # Question 6
-
+print("Printing the score based on some criteria")
 # Taking input from user and then printing the result
 score = float(input("Enter the score (between 0.0 to 1.0)"))
 
