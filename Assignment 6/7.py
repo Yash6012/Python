@@ -1,4 +1,5 @@
 # Question 7
+print("Program to display number on specific criteria")
 # Taking input from the user
 num = int(input("Enter a number you want to compare: "))
 
