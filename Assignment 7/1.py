@@ -10,12 +10,15 @@ def remove_keys(mydict, keylist):
 
 
 # __main__
+
 # initialising the dictionary and list
 my_dict = {"Harry": 98, "Hermione": 95, "Ronald": 90, "Draco": 80, "Nevil": 85, "Dumbledore": 100, "Sirius": 90}
 key_list = ["Snape", "Draco", "Nevil"]
 print("The defined Dictionary is:", my_dict)
 print("The keys which is to be removed are", key_list)
+
 # Calling the function
 result = remove_keys(my_dict, key_list)
+
 # Printing the result dictionary
 print(result)
