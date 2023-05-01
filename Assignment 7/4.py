@@ -10,7 +10,10 @@ def invert_dict(dictionary):
 
 # __main__
 # Initializing the dictionary
-my_dict = {"apple": 1, "banana": 2, "orange": 3, "pear": 4}
+my_dict = {"Harry": "ChosenOne", "Albus": "Phoenix", "Voldemort": "DarkLord", "Severus": "Always",
+           "Hermione": "Smartest", "Sirius": "Padfoot"}
+
 # Calling the function
 inverted_dict = invert_dict(my_dict)
-print(inverted_dict)
+print("The initial Dictionary is:", my_dict)
+print("\nThe Dictionary after inversion:", inverted_dict)
