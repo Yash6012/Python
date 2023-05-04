@@ -1,6 +1,6 @@
- # Question 1
+# Question 1
 s_s = [72, 81, 44, 68, 90, 53, 80, 75, 74, 65, 50, 92, 85, 69, 41,  73, 70, 86, 61, 65, 79, 94, 69]
-x, su, s, = 0, 0, 0
+x, su, s = 0, 0, 0
 
 # Calculating average
 for i in range(0, len(s_s)):
@@ -17,7 +17,7 @@ for i in range(0, len(s_s)):
 s = s / (len(s_s) - 1)
 
 # Calculating sum of standard deviation
-std_dev = pow(s , 0.5)
+std_dev = pow(s, 0.5)
 print(std_dev)
 for i in range(0, len(s_s)):
     if s_s[i] >= (av + 1.3 * std_dev):

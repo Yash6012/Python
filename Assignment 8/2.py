@@ -1,15 +1,18 @@
-# Python program to display all the prime numbers within an interval
+# Question 2
 
-lower = 1
-upper = 10000
+# Defining a function to check prime Number
+def prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
 
-print("Prime numbers between", lower, "and", upper, "are:")
 
-for num in range(lower, upper + 1):
-   # all prime numbers are greater than 1
-   if num > 1:
-       for i in range(2, num):
-           if (num % i) == 0:
-               break
-       else:
-           print(num)
+# __main__
+# Finding all the safe primes between 1 and 10000
+print("Safe prime numbers are:")
+for p in range(1, 10000):
+    if prime(p) and prime(2 * p + 1):
+        print(2 * p + 1)
