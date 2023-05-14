@@ -4,8 +4,8 @@ import math
 
 
 def max_angular_disp(angular_di, length):
-    d = 9.81 / length
-    c = math.acos(d)
+    d = angular_di / length
+    c = math.degrees(math.acos(math.cos(math.radians(d))))
     return angular_di * c
 
 
