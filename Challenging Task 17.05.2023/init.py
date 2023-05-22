@@ -17,6 +17,7 @@ def bubble_sort(arr):
 print("Program to print second largest number in a list")
 # Defining a list
 num = [5, 2, 8, 8, 9, 1, 1, 7, 3, 4, 6]
+# Printing the desired output
 print("The List is:", num)
 modified_num = list(set(num))
 print("Removing the duplicate elements from the list", modified_num)
